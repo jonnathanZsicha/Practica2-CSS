@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <title>enrutamientos</title>
+   <link type="text/css" rel="stylesheet" href="styles/reglas.css">
+   <link type="text/css" rel="stylesheet" href="styles/posicion.css">
+   <link type="text/css" rel="stylesheet" href="styles/estilos.css">
+</head>
+
+<body>
+   <header>
+      <img src="images/enrutamiento-logo.png" alt="enrutamiento" />
+   </header>
+
+   <nav>
+      <ul>
+         <li><a href="indexbase.html">Home</a></li>
+         <li><a href="historia.html">historia</a></li>
+         <li><a href="enrutamientos.html">enrutamiento</a></li>
+         <li><a href="tiposrouter.html">Tipos router</a></li>
+         <li><a href="contactenos.html">contactenos</a></li>
+
+      </ul>
+   </nav>
+
+   <article class="enruarti">
+      <h1>Tipos de enrutamiento</h1>
+      <p>Tanto los enrutadores como los anfitriones guardan una tabla de enrutamiento. El daemon de enrutamiento de cada
+         sistema actualiza la tabla con todas las rutas conocidas. El núcleo del sistema lee la tabla de enrutamiento
+         antes de reenviar paquetes a la red local. La tabla de enrutamiento enumera las direcciones IP de las redes que
+         conoce el sistema, incluida la red local predeterminada del sistema. La tabla también enumera la dirección IP
+         de un sistema de portal para cada red conocida. El portal es un sistema que puede recibir paquetes de salida y
+         reenviarlos un salto más allá de la red local.</p>
+
+      <ul>
+         <li>Enrutamiento estático</li>
+         <li>Enrutamiento dinámico</li>
+
+      </ul>
+
+      <h2>Enrutamiento estático</h2>
+      <p>Hosts y redes de tamaño reducido que obtienen las rutas de un enrutador predeterminado, y enrutadores
+         predeterminados que sólo necesitan conocer uno o dos enrutadores.</p>
+
+      <h3>Determinación de enrutamiento</h3>
+      <p>La información de enrutamiento que el encaminador aprende desde sus fuentes de enrutamiento se coloca en su
+         propia tabla de enrutamiento. El encaminador se vale de esta tabla para determinar los puertos de salida que
+         debe utilizar para retransmitir un paquete hasta su destino. La tabla de enrutamiento es la fuente principal de
+         información del enrutador acerca de las redes. Si la red de destino está conectada directamente, el enrutador
+         ya sabrá el puerto que debe usar para reenviar los paquetes. Si las redes de destino no están conectadas
+         directamente, el encaminador debe aprender y calcular la ruta más óptima a usar para reenviar paquetes a dichas
+         redes. La tabla de enrutamiento se constituye mediante uno de estos dos métodos o ambos:</p>
+      <h4>Rutas estaticas</h4>
+      <p>Las rutas estáticas se utilizan habitualmente en enrutamientos desde una red hasta una red de conexión única,
+         ya que no existe más que una ruta de entrada y salida en una red de conexión única, evitando de este modo la
+         sobrecarga de tráfico que genera un protocolo de enrutamiento. La ruta estática se configura para conseguir
+         conectividad con un enlace de datos que no esté directamente conectado al enrutador. Para conectividad de
+         extremo a extremo, es necesario configurar la ruta en ambas direcciones. Las rutas estáticas permiten la
+         construcción manual de la tabla de enrutamiento.</p>
+      <h2>Enrutamiento dinámico</h2>
+      <p>El enrutamiento dinámico le permite a los encaminadores ajustar, en tiempo real, los caminos utilizados para
+         transmitir paquetes IP. Cada protocolo posee sus propios métodos para definir rutas (camino más corto, utilizar
+         rutas publicadas por pares, etc.).</p>
+      <h6>Proceso de configuracion rip</h6>
+      <p>El protocolo RIP versión 1 es un protocolo de enrutamiento con clase que no admite la publicación de la
+         información de la máscara de red. El protocolo RIP versión 2 es un protocolo sin clase que admite CIDR, VLSM,
+         resumen de rutas y seguridad mediante texto simple y autenticación MD5.</p>
+
+
+   </article>
+
+   <footer id="footer">
+      <p>Copyright &copy; 2019. <a href="#">Privacy Policy</a> | <a
+            href="https://outlook.live.com/owa/">jsichar@est.ups.edu.ec</a> | <abbr>Universidad Politecnica
+            Saleciana</abbr></a> | <a href="#">Jonnatha Sicha</abbr></a></p>
+   </footer>
+</body>
+
+</html>
