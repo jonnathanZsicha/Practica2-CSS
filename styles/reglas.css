@@ -1,0 +1,220 @@
+/*{
+    border-width: 2px;
+    border-color: rgba(110, 149, 233, 0.288);
+    border-style: solid;
+    margin: 2tx;
+}*/
+
+html {
+  background-color: rgba(242, 228, 228, 1);
+}
+
+body {
+  color: rgb(91, 91, 91);
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background: wheat;
+  
+}
+
+.menu{
+  width: 23%;
+  float: left;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 4px;
+ background-color: rgb(179, 182, 194);
+ font-family: font-language-override;
+ 
+}
+ > nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+/*La pseudo clase :link (o a:link) permite especificar el aspecto de los enlaces que todavía no han sido visitados.*/
+
+  /*La pseudo clase :visited (o a:visited) permite especificar el aspecto de los enlaces que sí han sido visitados.*/
+ 
+/*pseudo-clase :hover permite especificar el aspecto del elemento sobre el que se encuentra el ratón*/
+
+
+ /*selector de hijos*/
+nav > ul > li > a:hover, nav > ul > li > a:active {
+  color: rgba(179, 101, 13, 0.219);
+  text-decoration: underline;
+}
+nav ul li {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 0.8em;
+}
+
+a:link {
+  background-color: floralwhite;
+}
+
+a:visited {
+  background-color: rgb(175, 231, 210);
+}
+p {
+  background-color: white;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+}
+
+a:hover {
+  background-color: wheat;
+  color: white;
+}
+a:link {
+  color: rgba(22, 104, 228, 0.952);
+ }
+ 
+ a:visited {
+  color: rgba(179, 101, 13, 0.219);
+ }
+ 
+ a:hover, a:focus {
+ text-decoration: tomato;
+ }
+
+ a:active {
+  font-weight: bold;
+ }
+ /*pseudo-class :first-child referencia al primer elemento de un tipo contenido dentro de otro*/
+ div p:first-child {
+  color: burlywood;
+}
+ /*::first-letter permite especificar el aspecto de la primera letra de texto.*/
+ p::first-letter {
+  background-color: rgba(255, 192, 203, 0);
+  color: blueviolet;
+  float: left;
+  font-family: monospace;
+  font-size: 200%;
+}
+
+#titulo{
+  background-color: turquoise;
+
+}
+
+/*seleccionar todos los elementos <img> con un atributo alt mediante el siguiente selector */
+img[alt] {
+  border: 1px solid #000000;
+}
+
+/*Para colocar en negritas la primera línea de cada párrafo, puede utilizar la siguiente regla:*/
+
+p:first-line {
+  font-weight: bold;
+}
+h1 {color: black;;
+background-color: rgb(231, 239, 255);
+
+/*todos los elementos*/ 
+h2, h3 {
+  color: rgb(166, 172, 14);
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4, h5 ,h6 {
+  color: rgb(172, 122, 14);
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*selector desendiente*/
+p span { color: blue; }
+
+div p {
+  color:rgb(8, 8, 0);
+}
+
+header h1 {
+  color: rgba(230, 117, 13, 0.699);
+  font-size-adjust: initial;
+ }
+ 
+/*selector de clase*/
+
+p.aviso {
+    color: rgb(4, 0, 250);
+}
+
+.error {
+  color: #930;
+  font-weight: bold;
+}
+/*selector de id */
+
+#aviso {
+    color:rgb(222, 228, 51);
+}
+/*selector de consecutivos*/
+  
+  
+div + p {
+    color:black;
+}
+
+/*selector de hermanos*/
+
+  
+div ~ p {
+    color:  rgb(124, 56, 202);
+}
+
+
+/*lang() permite especificar el aspecto de los elementos de un idioma determinado. En el ejemplo siguiente se cambia las comillas utilizadas en una cita <q> según el idioma indicado en el atributo lang*/
+
+  q:lang(es) {
+    quotes: "«" "»";
+}
+
+footer {
+	height: 40px;
+	clear: both;
+	padding-top: 30px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+footer a {
+	color: #ffffff;
+}
+
+#top
+{
+background: url(images/top.png) no-repeat top;
+margin: 0 auto;
+height: 17px;
+width: 885px;
+}
+
+#h1 {
+  width: 221px;
+  height: 29px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-image: url(title.gif);
+}
+
+
+/* Footer Styles */
+
+
