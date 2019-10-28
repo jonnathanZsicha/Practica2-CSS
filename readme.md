@@ -7,7 +7,7 @@
 
 ![](images/2.jpg)
 
-#3.Se recomienda utilizar, en al menos una página HTML, un diseño a dos columnas con cabecera y pie de página, como el que se muestra en la Figura 2. Así, como también se recomienda utilizar, en al menos una página HTML, un diseño a tres columnas con cabecera y pie de página como se muestra en la Figura 3..
+#3.Se recomienda utilizar, en al menos una página HTML, un diseño a dos columnas con cabecera y pie de página, como el que se muestra en la Figura 2. Así, como también se recomienda utilizar, en al menos una página HTML, un diseño a tres columnas con cabecera y pie de página como se muestra en la Figura 3.
 
 ![](images/3.jpg)
 
@@ -57,5 +57,5 @@
 #Se pide realizar el tutorial02 del texto guía New Perspectives HTML5 and CSS3, 7th Edition. El desarrollo del tutorial se debe incluir en el informe de la práctica (detallado)
 
 
-![] (images/1.jpg)
+![](images/1.jpg)
 >>>>>>> 9a6653fec27b985718fb2f774aa0d91bd8fd79bc
